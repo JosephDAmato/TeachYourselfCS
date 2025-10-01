@@ -11,6 +11,7 @@
 [Mathematic for computer science](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf)
 - Notes
 	- [[TYCS/4. Mathematics for Computer Science/Notes Math for CS/Intro]]
+	- [[TYCS/4. Mathematics for Computer Science/Notes Math for CS/Chapter 1]]
 - Book-length lecture notes for MIT course of same name
 - [lectures](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/)
 	- SEE BELOW ALSO FOR BREAKDOWN
