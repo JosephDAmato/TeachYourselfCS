@@ -8,7 +8,11 @@ User Interface -Alan Kay-
 ---
 ## Notes
 
-
+- Different neat things they did tin the 70s
+	- light pens
+	- connected worktops
+	- early tablets
+- Making the interface work for the user in mind and not the for program itself
 [[]]
 
 ---
