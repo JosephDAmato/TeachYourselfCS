@@ -207,11 +207,11 @@ Pairs with Pairs or LIST STRUCUTRE
                     list2))))
 
 ;;MApping
-(define (map proc items)
+(define (map anonymous-func items)
   (if (null? items)
       nil
-      (cons (proc (car items))
-            (map proc (cdr items)))))
+      (cons (anonymous-func (car items))
+            (map anonymous-func (cdr items)))))
 
 (map abs (list -10 2.5 -11.6 17)) ;apply the absolute primative to the list
 ;; (10 2.5 11.6 17)
@@ -223,3 +223,13 @@ Pairs with Pairs or LIST STRUCUTRE
 
 ---
 ### 2.2.2 Hierarchical Structures
+```scheme
+(every(lambda (rank) (word rank s ))'(A 2 3 4 5 6 7 8 9 10 J Q K))
+
+(every (lambda (rank) (word rank 'S)) '(A K Q))
+(map (lambda (rank) (word rank 'S)) '(A K Q))
+(map ())
+
+(every (word '(A K Q) 'S ))
+()
+```
