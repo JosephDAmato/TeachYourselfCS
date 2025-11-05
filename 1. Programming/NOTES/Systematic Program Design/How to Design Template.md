@@ -1,4 +1,5 @@
 ```scheme
+
 (require 2htdp/image)
 (require 2htdp/universe)
 
@@ -6,17 +7,22 @@
 
 ;; =================
 ;; Constants:
-
+(define WIDTH 900)
+(define HEIGHT 700)
+(define SCENE (rectangle WIDTH HEIGHT "solid" "aliceblue"))
+SCENE
 
 ;; =================
 ;; Data definitions:
-(define WS ())
+
+
+;; (define WS ())
 ;; WS is ... (give WS a better name)
 ;; Interp.....
-(define example (WS example)
+;; (define example (WS example))
 
-(define (fn-for-ws ws)...)
-;;Template Rules Used
+;; (define (fn-for-ws ws)...)
+;; Template Rules Used
 
 
 ;; =================
@@ -46,6 +52,5 @@
 ;; !!! &Tests
 (define (render ws) ...) ;; STUB
 ;; Function Template from ABOVE
-
 
 ```
