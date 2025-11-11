@@ -80,21 +80,10 @@
 (define (insert s los)
   (cond [(empty? los) (cons s empty)]
         {else
-         (if (next? s (first los))
+         (if (string>=? s (first los))
              (cons (first los)
                    (insert s (rest los)))
             (cons s los))}
         ))
-;;(insert ("c") (insert ("b") (insert "a" empty)
-;;(insert "c" (insert "b" ( cond (empty? empty) true
-;;(insert "c" (insert "b" (cons "a" empty)
-;;(insert "c" (cond (empty? "a") false
-;;(insert c (insert b ( next? a empty) true
-;;                     (cons a (insert a (empty)
 
 
-;; string string -> Boolean
-;; takes in two strings and return true if first string is alphabeaticly first
-
-(define (next? s1 s2)
-  (string>? s1 s2))
